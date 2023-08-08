@@ -48,6 +48,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-workers {
   background-color: #f4f4fd;
@@ -57,15 +58,23 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.photo {
+  display: flex;
+  gap: 24px;
 }
 .valuables-list-descr {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .page-down {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-web {
   font-family: "Raleway", sans-serif;
@@ -75,6 +84,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .main-button {
   background-color: #4d5ae5;
@@ -88,6 +99,10 @@
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .link {
   text-decoration: none;
@@ -108,14 +123,19 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .other-buttons:hover {
   color: white;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .other-buttons:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .footer-descr {
   color: #f4f4fd;
@@ -129,6 +149,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 .input-list:hover {
   color: #404bbf;
@@ -183,6 +204,8 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .second-title {
   font-weight: 500;
@@ -190,6 +213,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .contacts-list {
   font-size: 16px;
@@ -205,9 +229,12 @@ address {
 }
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .specialists {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .container {
   max-width: 1158px;
@@ -249,4 +276,61 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.company-strategy {
+  padding: 120px 0;
+}
+.list-item {
+  width: calc((100% - 72px) / 4);
+}
+.pictures {
+  padding-bottom: 120px;
+}
+.picture-company {
+  display: flex;
+  gap: 24px;
+}
+.pic-description {
+  width: calc((100% - 48px) / 3);
+}
+.profession {
+  padding: 32px 0;
+}
+.portfolio-class {
+  border-bottom: 1px solid #e7e9fc;
+}
+.portfolio-info {
+  display: flex;
+}
+.adress-info {
+  display: flex;
+  gap: 40px;
+}
+.buttons {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.company-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
