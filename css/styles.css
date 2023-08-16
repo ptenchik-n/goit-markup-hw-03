@@ -83,8 +83,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  text-align: center;
 }
 .page-down {
   background-color: #2e2f42;
@@ -156,6 +154,7 @@ ul {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .input-list {
   font-weight: 500;
@@ -165,6 +164,7 @@ ul {
   color: #2e2f42;
   text-decoration: none;
   padding: 24px 0 24px;
+  display: block;
 }
 .input-list:hover {
   color: #404bbf;
@@ -220,7 +220,6 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
-  text-align: center;
   margin-bottom: 8px;
 }
 .second-title {
@@ -259,6 +258,7 @@ address {
 }
 .site-info {
   display: flex;
+  align-items: center;
 }
 .logo-line {
   display: flex;
@@ -330,6 +330,7 @@ img {
 }
 .portfolio-info {
   display: flex;
+  align-items: center;
 }
 .adress-info {
   display: flex;
