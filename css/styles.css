@@ -363,3 +363,7 @@ img {
 .img-decript {
   width: calc((100% - 48px) / 3);
 }
+.email-info {
+  display: flex;
+  gap: 40px;
+}
